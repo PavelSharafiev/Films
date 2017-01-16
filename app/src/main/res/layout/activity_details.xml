@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/background_light">
+
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_width="380dp"
+                android:layout_height="500dp"
+                android:layout_gravity="center"
+                android:id="@+id/imageViewD" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleD"
+                android:textStyle="normal|bold"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                android:textAllCaps="true"
+                android:layout_margin="20px"
+                android:fontFamily="monospace"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/genresD"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:layout_margin="20px"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ageD"
+                android:textSize="18sp"
+                android:textColor="?attr/colorPrimary"
+                android:textStyle="normal|italic"
+                android:layout_margin="20px"
+                android:fontFamily="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bodyD"
+                android:layout_margin="20px"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
